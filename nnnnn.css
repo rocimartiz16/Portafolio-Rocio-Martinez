@@ -1,0 +1,26 @@
+
+
+<form name="contact" method="POST" data-netlify="true" class="contact_form grid">
+<div class="contact_inputs grid">
+    <div class="contact_content">
+        <label class="contact_label">Nombre<input type="text"  name="name" class="contact_input"/></label>
+    </div>
+    <div class="contact_content">
+    <label class="contact_label">Email<input type="email"  name="email" class="contact_input"/></label>
+    </div>
+</div>
+
+<div class="contact_content">
+    <label for="" class="contact_label">Projecto</label>
+    <input type="text" class="contact_input">
+</div>
+<div class="contact_content">
+    <label class="contact_label">Mensaje<textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea></label>
+    
+</div>
+
+<div>
+<button type="submit"  class="button button--flex">Enviar Mensaje
+<i class="uil uil-message button_icon"></i></button>
+</div>
+</form>
