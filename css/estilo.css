@@ -1052,6 +1052,13 @@ display: block;
     }
     
 }
+@media screen and (max-width: 400px){
+    .home__blob{
+        width:195px;
+        fill: var(--first-color);
+    }
+    
+}
 
 /*para dispositivos medianos*/
 @media screen and (min-width: 568px) {
